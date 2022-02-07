@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--VISTA QUE SE LLAMA DESDE EL CONTROLADOR VIDEOJUEGO.COMPONENTS.TS CON TEMPLATEURL-->
+    <!--Uso de las propiedades por interpolación (Binding)-->
+    <h2>{{titulo}}</h2>
+    <ul>
+        <li>GTA</li>
+        <li>Prince of persia</li>
+        <li>Pokemon Leyendas: Arceus</li>
+        <li>Animal Crossing New Horizons</li>
+    </ul>
+    {{listado}}
+
+    <br/>
+    <!--El evento se nombra con su nombre entre paréntesis-->
+    <button (click)="cambiarTitulo();">Cambiar título</button>
+</body>
+</html>
